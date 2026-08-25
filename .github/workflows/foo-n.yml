@@ -1,0 +1,16 @@
+name: N-Word
+
+on: workflow_dispatch
+
+jobs:
+  foo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print ngg
+        run: echo "Hello foo!"
+
+      - name: Ciao Bella
+        run: echo "Ciao Bit***"
+
+  
