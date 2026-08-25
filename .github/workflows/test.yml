@@ -24,6 +24,7 @@ jobs:
         working-directory: ./second-step
 
   deploy:
+    needs: test
     runs-on: ubuntu-latest
 
     steps:
