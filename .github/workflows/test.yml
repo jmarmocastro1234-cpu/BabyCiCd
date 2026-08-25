@@ -44,6 +44,7 @@ jobs:
         working-directory: ./second-step
       - name: Build Project
         run: npm run build
+        working-directory: ./second-step
       - name: Deploy
         run: echo "Dplyinf"
 
